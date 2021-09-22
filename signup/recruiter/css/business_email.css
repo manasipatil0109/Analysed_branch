@@ -17,7 +17,10 @@
     font-family: MetroM;
     src: url(../fonts/metropolis/Metropolis-Medium.woff);
 }
-
+a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
 #signupquestion {
     width: 396px;
     height: 27px;
@@ -62,6 +65,10 @@
     color: white;
 }
 
+#getstarted-btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 #recruiterheading {
     position: absolute;
     top: 50px;

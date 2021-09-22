@@ -1,11 +1,21 @@
 @font-face {
-  font-family: Cera;
-  src: url(../../fonts/CeraPro-Bold.ttf);
+  font-family: CeraB;
+  src: url(../fonts/CeraPro-Bold.ttf);
+}
+
+@font-face {
+  font-family: CeraM;
+  src: url(../fonts/CeraPRO-Medium.ttf);
 }
 
 @font-face {
   font-family: Metro;
-  src: url(../../fonts/metropolis/Metropolis-Regular.woff);
+  src: url(../fonts/metropolis/Metropolis-Regular.woff);
+}
+
+@font-face {
+  font-family: MetroM;
+  src: url(../fonts/metropolis/Metropolis-Medium.woff);
 }
 
 * {
@@ -34,7 +44,7 @@ a {
 /* Navigation bar */
 
 .navigation-bar-signup {
-  margin-top: 20px;
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -42,12 +52,12 @@ a {
 .analysed-logo-signup {
   color: #2d3e50;
   font-weight: bold;
-  font-size: 40px;
-  font-family: Cera;
+  font-size: 30px;
+  font-family: MetroM;
 }
 .analysed-navigation-items {
   font-family: Metro;
-  font-size: 20px;
+  font-size: 18px;
   list-style: none;
 }
 .analysed-navigation-items li {
@@ -74,7 +84,7 @@ a {
 .signup-heading-signup-recruiter {
   color: #3598db;
   font-family: Metro;
-  font-size: 30px;
+  font-size: 25px;
   margin: 0px 0px;
   font-weight: 800;
 }
