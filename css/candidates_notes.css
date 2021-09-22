@@ -67,12 +67,11 @@
     width: 170px;
     height: 31px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-    border: 1px solid var(--unnamed-color-3598db);
+
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #3598DB;
+    border: 1px solid white;
     opacity: 1;
 }
-
 .radio {
     margin-top: 30px;
     margin-left: 800px;

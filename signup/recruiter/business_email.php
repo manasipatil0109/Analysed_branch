@@ -18,13 +18,13 @@
       <section id="mainBody">
         <div class="main row col-lg-7 col-md-12" style="width:633px;height:420px;margin-left:5%">
           <section id="signup" style="background-color:white;margin-left:-15px">
-		  <form method="post">
+		  <form method="post" action="index.php">
 		  <p id="signupquestion">Do you have a business Email?</p><br>
 		  <input type="email" name="b_email" id="inputEmail4" placeholder="Enter you business email here"/>
 		   <br><br>
-		   <button type="submit" id="getstarted-btn">Get Started</button>
+		   <button type="submit" id="getstarted-btn" onclick="location.href='index.php'">Get Started</button>
 		   <br><br><br><br>
-		   <p style="margin-left:55%;color:black;margin-right:-55%;">Don't have a business email ?<br> <a href="./recruiter-signup.php" style="color:#007bff;text-decoration:none;margin-left:25%">Click Here</a></p>
+		   <p style="margin-left:55%;color:black;margin-right:-55%;">Don't have a business email ?<br> <a href="index.php" style="color:#007bff;text-decoration:none;margin-left:25%">Click Here</a></p>
 		  </form>
             
             <!--<div class="form-group" id="new-business-email-form">Don't have a business email ?<br> <a href="./recruiter-signup.php" style="color:#007bff;text-decoration:none">Click Here</a></div>
@@ -47,3 +47,4 @@
     <!-- <script src="js/signup.js"></script> -->
   </body>
 </html>
+
