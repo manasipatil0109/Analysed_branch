@@ -14,7 +14,7 @@
             unset($_SESSION['info']['next']);
         }
      
-        header("Location: createRecruitement1.php");
+        header("Location: includes/registerRecruitment.php");
      } 
 
 ?>
